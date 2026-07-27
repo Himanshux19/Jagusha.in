@@ -56,7 +56,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#F7F5F0] px-6">
         <div className="absolute inset-0 z-0">
           <img
-            src="public/source.png"
+            src="source.png"
             alt="Nature Inspired Hydration Hero"
             className="w-full h-full object-cover object-center brightness-[0.75]"
           />
@@ -234,7 +234,7 @@ export default function Home() {
             {/* Visual side */}
             <div className="lg:col-span-5 relative h-full min-h-[350px] lg:min-h-[500px]">
               <img
-                src="public/product-5.png"
+                src="product-5.png"
                 alt="Alpyra flagship premium bottle render"
                 className="w-full h-full object-cover absolute inset-0"
               />
