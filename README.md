@@ -1,32 +1,66 @@
-# React + TypeScript + Vite
+# Jagusha
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Jagusha is a modern React + TypeScript website for Jagusha Foods And Beverages Private Limited. The project showcases the brand, company story, product focus, and contact information through a polished multi-page experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This app is built with Vite and React and includes:
 
-## React Compiler
+- A responsive landing experience
+- Dedicated pages for Home, About, Brand, and Contact
+- Smooth animations and section transitions
+- Clean typography and modern styling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- Lucide React
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Getting Started
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### Install dependencies
+
+```bash
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Run the development server
+
+```bash
+npm run dev
+```
+
+The app will be available at the local Vite URL shown in the terminal.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Lint the project
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```text
+src/
+  components/     # Reusable UI pieces such as navbar, footer, and scroll-to-top
+  pages/          # Main page views: Home, About, Brand, Contact
+  App.tsx         # App routing and layout
+  main.tsx        # Application entry point
+  index.css       # Global styles and theme setup
+```
+
+## Notes
+
+The project uses a custom theme with branded colors and typography, and it is designed to be easy to extend with additional content or sections.
+

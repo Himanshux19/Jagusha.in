@@ -1,12 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  ShieldCheck,
-  Award,
-  FileText,
-  UserCheck,
-  Mail,
-  MapPin,
-} from "lucide-react";
+import { ShieldCheck, Award, FileText, Mail, MapPin } from "lucide-react";
 
 export default function About() {
   const fadeInUp = {
