@@ -122,10 +122,10 @@ export default function Footer() {
                 <Mail className="w-5 h-5 text-primary shrink-0" />
 
                 <a
-                  href="mailto:info@jagusha.com"
+                  href="mailto:contact@jagusha.com"
                   className="hover:text-primary transition-colors"
                 >
-                  info@jagusha.com
+                  contact@jagusha.com
                 </a>
               </li>
             </ul>

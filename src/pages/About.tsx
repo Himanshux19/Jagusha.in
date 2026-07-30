@@ -15,7 +15,7 @@ export default function About() {
     { label: "Legal Status", value: "Private Limited Company", icon: FileText },
     { label: "Incorporation Date", value: "March 16, 2024", icon: ClockIcon },
     { label: "CIN", value: "U56300UP2024PTC199473", icon: FileText },
-    { label: "Registration No.", value: "199473 (RoC-Kanpur)", icon: FileText },
+    { label: "Registration No.", value: "199473", icon: FileText },
     {
       label: "Nature of Business",
       value: "Manufacturer of Food & Beverage Products",
@@ -116,7 +116,7 @@ export default function About() {
             <div className="absolute inset-0 bg-[#F5F2EB] rounded-3xl rotate-1 scale-102 -z-10" />
             <img
               src="/factory.png"
-              alt="Industrial stainless water production lines"
+              alt="Jagusha Foods & Beverages Pvt. Ltd."
               className="rounded-3xl shadow-lg w-full h-[380px] object-cover"
             />
           </motion.div>
@@ -175,7 +175,7 @@ export default function About() {
           <div>
             <img
               src="/factory2.png"
-              alt="Natural pure water spring source"
+              alt="Jagusha Foods & Beverages Pvt. Ltd."
               className="rounded-3xl shadow-xl w-full h-[360px] object-cover"
             />
           </div>
@@ -201,7 +201,7 @@ export default function About() {
                     Registered Office
                   </h4>
                   <p className="text-gray-500 text-sm leading-relaxed font-light">
-                    CO USHA RANI, SUKH VIHAR RING ROAD, ALMASPUR,
+                    SUKH VIHAR RING ROAD, ALMASPUR,
                     <br />
                     Muzaffar Nagar City, Muzaffarnagar,
                     <br />
@@ -221,10 +221,10 @@ export default function About() {
                   </h4>
                   <p className="text-gray-500 text-sm font-light">
                     <a
-                      href="mailto:saini.vip@gmail.com"
+                      href="mailto:contact@jagusha.com"
                       className="hover:text-secondary transition-colors font-medium"
                     >
-                      saini.vip@gmail.com
+                      contact@jagusha.com
                     </a>
                   </p>
                 </div>

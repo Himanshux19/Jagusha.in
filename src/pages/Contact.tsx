@@ -48,7 +48,7 @@ export default function Contact() {
         <div className="absolute inset-0">
           <img
             src="/source.png"
-            alt="Pristine Natural Water Source"
+            alt="Jagusha Foods & Beverages Pvt. Ltd."
             className="w-full h-full object-cover brightness-[0.4]"
           />
           <div className="absolute inset-0 bg-primary/20 backdrop-blur-[1px]" />
@@ -275,11 +275,11 @@ export default function Contact() {
                       Mail Us
                     </h4>
                     <a
-                      href="mailto:info@jagusha.com"
+                      href="mailto:contact@jagusha.com"
                       className="text-gray-500 text-xs font-light block hover:text-primary transition-colors truncate"
-                      title="info@jagusha.com"
+                      title="contact@jagusha.com"
                     >
-                      info@jagusha.com
+                      contact@jagusha.com
                     </a>
                   </div>
                 </div>
